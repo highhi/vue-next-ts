@@ -3,5 +3,11 @@
     "config:base"
   ],
   "timezone": "Asia/Tokyo",
-  "prHourlyLimit": 5
+  "prHourlyLimit": 5,
+  "packageRules": [
+    {
+      "packagePatterns": ["^eslint"],
+      "groupName": "eslint packages"
+    }
+  ]
 }
