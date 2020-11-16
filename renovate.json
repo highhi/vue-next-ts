@@ -6,8 +6,8 @@
   "prHourlyLimit": 5,
   "packageRules": [
     {
-      "updateType": ["^minor", "patch"],
-      "groupName": "minor and path"
+      "updateTypes": ["minor", "patch"],
+      "groupName": "minor and path (non-major)"
     },
     {
       "packagePatterns": ["^eslint"],
