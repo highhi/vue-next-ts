@@ -1,14 +1,11 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    "group:allNonMajor"
   ],
   "timezone": "Asia/Tokyo",
   "prHourlyLimit": 5,
   "packageRules": [
-    {
-      "updateTypes": ["minor", "patch"],
-      "groupName": "minor and path (non-major)"
-    },
     {
       "packagePatterns": ["^eslint"],
       "groupName": "eslint packages"
