@@ -6,6 +6,10 @@
   "prHourlyLimit": 5,
   "packageRules": [
     {
+      "updateType": ["^minor", "patch"],
+      "groupName": "minor and path"
+    },
+    {
       "packagePatterns": ["^eslint"],
       "groupName": "eslint packages"
     }
